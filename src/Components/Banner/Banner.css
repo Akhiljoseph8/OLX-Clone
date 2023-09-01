@@ -30,11 +30,44 @@
   width: 100vw;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .otherQuickOptions {
     display: none;
   }
   .bannerChildDiv .banner {
     position: relative;
   }
+  .categoryLink{
+    display: none;
+  }
 }
+
+.bannerimage{
+ 
+}
+.otherQuickOptions{
+max-width: 74vw;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  
+}
+.categoryLink{
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0px;
+    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    min-width: 32px;
+  
+}
+.categoryLink:hover{
+  color: #00a49f;
+}
+
+

@@ -48,3 +48,15 @@
   font-weight: 400;
   padding: 0;
 }
+.deleteButtonDiv{
+  padding-top: 15px;
+  padding-left: 10vw;
+  
+}
+.deleteButton{
+color: #ffff;
+background-color: #24a0ed;
+border: none;
+border-radius: 8%;
+height: 30px;
+}

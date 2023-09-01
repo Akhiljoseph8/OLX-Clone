@@ -1,0 +1,51 @@
+
+._3wCqT {
+    top: 44px;
+    display: flex;
+    width: 100%;
+}
+._1Poir{
+    display: none;
+    column-count: 4;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.1);
+    background-color: var(--white);
+    justify-content: space-between;
+    padding: 16px 16px 0;
+}
+.vLgFL{
+    display: block;
+}
+._3XRAy {
+    display: inline-block;
+    padding: 0 8px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    width: 100%;
+}
+.yFQ0R {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    height: unset;
+    line-height: unset;
+    padding: 0;
+    margin: 12px 0;
+}
+.catlinkDiv {
+    margin: 8px 0;
+}
+.catlink {
+    padding: 0;
+    text-decoration: none;
+    color: var(--blackText);
+    font-size: 14px;
+}
+.catlinkDiv:hover{
+  
+   
+}
+.catlink:hover{
+    text-decoration: none;
+    color: #00a49f;
+}

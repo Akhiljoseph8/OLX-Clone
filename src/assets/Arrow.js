@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import './Arrow.css'
 
-
-export default function Arrow() {
-    return ( <svg
+export default function Arrow({rotate}) {
+  
+    return ( <svg  className= {rotate ? "rotate arrow"  : "arrow"}
         width="24px"
         height="24px"
         viewBox="0 0 1024 1024"
         data-aut-id="icon"
-        className
         fillRule="evenodd"
       >
         <path

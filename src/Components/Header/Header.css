@@ -119,6 +119,7 @@
 .sellMenu {
   position: relative;
   cursor: pointer;
+  margin-right: 20px;
 }
 
 .sellMenu .all {
@@ -154,11 +155,20 @@
 .sellMenu .sellMenuContent span {
   margin-left: 5px;
 }
-
+.signout{
+  cursor: pointer;
+}
 @media only screen and (max-width: 700px) {
   .placeSearch,
   .productSearch,
   .sellMenu {
     display: none;
   }
+}
+.searchbutton{
+  fill: white;
+  background-color: black;
+  padding-left: 6px;
+  padding-right: 6px;
+  cursor: pointer;
 }
