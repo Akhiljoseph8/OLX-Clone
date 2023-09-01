@@ -26,4 +26,4 @@ import React from 'react'
           />
         </g>
       </svg>)
-}
+}     

@@ -1,5 +1,4 @@
 import React from 'react'
-import './Heart.css'
 export default function Heart() {
     return(
       <div className='icon'>
@@ -20,4 +19,4 @@ export default function Heart() {
       </svg>
       </div>
     )
-}
+}   
